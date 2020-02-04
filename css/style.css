@@ -104,8 +104,8 @@ h2.errortitle {
 	margin-bottom:0;
 }
 
-.icon-dropbox1 {
-	background-image: url("../img/Architecture.png")
+.icon-dropbox {
+	background-image: url("../img/Architecture.png") !important;
 	background-repeat: repeat;
 }
 
