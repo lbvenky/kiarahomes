@@ -328,7 +328,7 @@ ul.nav li.dropdown ul li i {
 }
 
 .intro-content {
-	background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.65);
   position: absolute;
   position: absolute;
   bottom: 0;
@@ -378,6 +378,11 @@ ul.nav li.dropdown ul li i {
 		background-repeat: no-repeat;
 	}
 
+	div#logoimg img {
+		height: auto;
+		width: 100%;
+	}
+	
 	.intro-content  h2 {
 		font-size: 24px;
 	}
