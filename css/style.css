@@ -360,11 +360,28 @@ ul.nav li.dropdown ul li i {
 
 @media (max-width: 767px) {
 	#intro {
-		height: 100vh;
+		height: 40vh;
 	}
 	.intro-content  h2 {
 		font-size: 34px;
 	}
+
+}
+
+@media (max-width: 480px) {
+	#intro {
+		height: 30vh;
+		width: 100%;
+		position: relative;
+		background: url(../img/intro-background.jpg) top center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.intro-content  h2 {
+		font-size: 24px;
+	}
+
 }
 
 .btn-get-started {
